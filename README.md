@@ -1,7 +1,3 @@
----
-theme: github
-highlight: agate
----
 ## 实现过程
 [   实现@Mention 提及聊天框   ](https://juejin.cn/post/7109756910772961317) 
 
