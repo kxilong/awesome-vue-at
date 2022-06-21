@@ -1,7 +1,16 @@
-# Vue 3 + Vite
+---
+theme: github
+highlight: agate
+---
+## 实现过程
+[   实现@Mention 提及聊天框   ](https://juejin.cn/post/7109756910772961317) 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 效果展示
+![lv_0_20220616100335_.gif](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e5a3c44402e49a8be0fa222824dee43~tplv-k3u1fbpfcp-watermark.image?)
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+[【在线体验】](https://kxilong.github.io/awesome-vue-at/)
+# 源码
+[   awesome-vue-at   ](https://github.com/kxilong/awesome-vue-at) 
+# 参考内容
+[ quill   ](https://www.npmjs.com/package/quill)
+[quill-mention](https://www.npmjs.com/package/quill-mention)
