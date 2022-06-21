@@ -3,8 +3,7 @@
 
 ## 效果展示
 [【在线体验】](https://kxilong.github.io/awesome-vue-at/)
-# 源码
-[   awesome-vue-at   ](https://github.com/kxilong/awesome-vue-at) 
+
 # 参考内容
 [ quill   ](https://www.npmjs.com/package/quill)
 [quill-mention](https://www.npmjs.com/package/quill-mention)
