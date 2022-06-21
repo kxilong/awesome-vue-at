@@ -1,0 +1,23 @@
+name: deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install
+        run: npm install # 安装依赖
+
+      - name: Build
+        run: npm run build # 打包
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.0 # 使用部署到 GitHub pages 的 action
+        with:
+          BRANCH: gh-pages
+          FOLDER: dist

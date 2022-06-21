@@ -2,6 +2,7 @@
   "name": "awesome-vue3-at",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://kxilong.github.io/awesome-vue-at/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

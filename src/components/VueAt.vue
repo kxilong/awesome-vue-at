@@ -4,7 +4,6 @@
     发布
   </el-button>
 </template>
-
 <script>
 import api from "@/api";
 import { memberList, regHttp } from "@/utils/variables.js";
@@ -85,6 +84,7 @@ export default {
     // 获取评论区@人有哪些
     getAts() {
       let domStr = this.$refs.editor.outerHTML;
+      console.log(domStr);
       let patt = /<span[^>]+data-id=['"]([^'"]+)['"]+/g;
       let result = [],
         temp;
